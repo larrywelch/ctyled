@@ -1,17 +1,17 @@
 {
   "name": "ctyled",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "contextual styles for react",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "satchelspencer",
+  "author": "Larry Welch",
   "license": "MIT",
   "files": [
     "dist/**/*"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satchelspencer/ctyled.git"
+    "url": "git+https://github.com/larrywelch/ctyled.git"
   },
   "engines": {
     "node": "18.x",
