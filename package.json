@@ -1,6 +1,6 @@
 {
   "name": "ctyled",
-  "version": "0.0.23",
+  "version": "0.1.0",
   "description": "contextual styles for react",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,29 +13,35 @@
     "type": "git",
     "url": "git+https://github.com/satchelspencer/ctyled.git"
   },
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x",
+    "yarn": "3.x"
+  },
   "scripts": {
     "build": "rm -rf ./dist && tsc"
   },
   "peerDependencies": {
-    "@types/react": "^16.8.14",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "@types/react": "^18.0.33",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.10"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
-    "@types/react": "^16.8.14",
-    "babel-loader": "^8.0.5",
-    "ts-loader": "^5.4.3",
-    "typescript": "^3.4.5",
-    "webpack": "^4.30.0"
+    "@types/react": "^18.0.33",
+    "babel-loader": "^9.1.2",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.3",
+    "webpack": "^5.77.0"
   },
   "dependencies": {
-    "@types/tinycolor2": "^1.4.2",
-    "emotion": "9.2.4",
-    "lodash": "^4.17.11",
-    "memoize-one": "^5.1.1",
-    "object.values": "^1.1.1",
-    "react-emotion": "^9.2.4",
-    "tinycolor2": "^1.4.1"
-  }
+    "@types/tinycolor2": "^1.4.3",
+    "emotion": "^11.0.0",
+    "lodash": "^4.17.21",
+    "memoize-one": "^6.0.0",
+    "object.values": "^1.1.6",
+    "react-emotion": "^10.0.0",
+    "tinycolor2": "^1.6.0"
+  },
+  "packageManager": "yarn@3.5.0"
 }

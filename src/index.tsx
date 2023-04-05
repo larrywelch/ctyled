@@ -1,4 +1,4 @@
-import React, { memo, createContext, useContext, useMemo, SFC, useCallback } from 'react'
+import React, { memo, createContext, useContext, useMemo, FunctionComponent, useCallback } from 'react'
 import _ from 'lodash'
 import { css } from 'react-emotion'
 import values from 'object.values'
@@ -24,7 +24,7 @@ const CtyledContext = createContext<{
 }>({ theme: {}, pstyle: {} })
 CtyledContext.displayName = 'CtyledContext'
 
-const ThemeProvider: SFC<{ theme: any }> = ({ theme, ...props }) => (
+const ThemeProvider: FunctionComponent<{ theme: any }> = ({ theme, ...props }) => (
   <CtyledContext.Provider
     value={{
       theme: theme,
